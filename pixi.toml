@@ -29,9 +29,11 @@ ipykernel = "*"
 jupyterlab = "*"
 pip = "*"
 simpleitk = ">=2.5.2,<3"
+pandas = ">=2.3.3,<3"
 
 [pypi-dependencies]
-damply = ">=0.10.0, <0.11"
+damply = ">=0.26.0, <0.27"
+readii_2_roqc = { git = "https://github.com/bhklab/readii_2_roqc.git"}
 
 [tasks]
 example_script = {cmd="python $SCRIPTS/example_script.py", description="Run an example script"}
