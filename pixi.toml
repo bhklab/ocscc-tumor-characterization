@@ -31,6 +31,7 @@ pip = "*"
 simpleitk = ">=2.5.2,<3"
 pandas = ">=2.3.3,<3"
 openpyxl = ">=3.1.5,<4"
+scikit-learn = ">=1.6.1,<1.7"
 
 [pypi-dependencies]
 damply = ">=0.26.0, <0.27"
